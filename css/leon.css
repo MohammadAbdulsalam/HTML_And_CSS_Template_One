@@ -8,7 +8,7 @@
     --section-background: #f6f6f6;
     --text-color:#777;
     --section-padding: 60px;
-    --main-duration: 0.3s;
+    --main-duration: 0.5s;
     --main-line-height: 1.8;
 }
 /* End Variables */
@@ -31,7 +31,6 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
 }
 /* Small */
 @media (min-width: 768px) {
@@ -439,7 +438,7 @@ body {
         padding: 10px;
         color: var(--secondary-color);
     }
-    @media (max-width) {
+    @media (max-width:767px) {
         .contact .info .lable,
         .contact .info .link {
             font-size: 25px;
@@ -458,6 +457,11 @@ body {
 .footer span {
     font-weight: bold;
     color: var(--main-color);
+}
+@media (max-width:767px) {
+    .footer{
+        font-size: 13px;
+    }
 }
 /* End Footer */
 /* ---------------------------------------------------------------------------------------------- */
