@@ -249,7 +249,7 @@ body {
 }
 .services .services-contant .srv .text p {
     color: var(--text-color);
-    font-weight: 800;
+    font-weight: 300;
     line-height: var(--main-line-height);
 }
 .services .services-contant .image {
