@@ -302,7 +302,7 @@ body {
 .portfolio .portfolio-contant .card img {
     max-width: 100%;
 }
-.portfolio .portfolio-contant .card img:hover {
+.portfolio .portfolio-contant .card:hover img {
     transform: rotate(3deg);
 }
 .portfolio .portfolio-contant .card .info {
